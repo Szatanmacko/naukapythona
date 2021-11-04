@@ -9,6 +9,7 @@ print(a)
 
 if type(a) == (float):
      print("ok")
+     print("siemanko")
 else:
      print("Niewlasciwa wartosc")
 
