@@ -8,7 +8,8 @@ print(a)
 
 
 if type(a) == (float):
-     print("klamka")
+     print("ok")
+     print("siemanko")
 else:
      print("Niewlasciwa wartosc")
 
