@@ -3,6 +3,7 @@ print("Kalkulator")
 print("Podaj pierwsza liczbe")
 
 a = float(input())
+
 print(a)
 
 
@@ -12,6 +13,7 @@ else:
      print("Niewlasciwa wartosc")
 
 
-# operacja = input("Wybierz operacje (+, -, *, /)")
-# print(operacja)
+
+
+
 
