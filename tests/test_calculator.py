@@ -24,3 +24,7 @@ class TestCalculate(TestCase):
     def test_calculate_division(self):
         self.assertEqual(2, calculate(Calculation.divide, 4, 2))
         self.assertEqual(7, calculate(Calculation.divide, 14, 2))
+
+    def test_calculate_division_throws_ZeroDivisionError_if_dividing_by_zero(self):
+        zero = 0
+        self.assertIsNone(calculate(Calculation.divide, 10, zero))
